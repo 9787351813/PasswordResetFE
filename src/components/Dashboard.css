@@ -1,0 +1,64 @@
+/* src/components/Dashboard.css */
+
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  margin-bottom: 0;
+  color:blue;/* Add background color to navbar */
+}
+
+.navbar-brand {
+  font-size: 2rem; /* Increase the size of the brand name */
+  color: black !important; /* Change brand name color to white */
+}
+.nav.link {
+  font-size: 2rem; /* Increase the size of the brand name */
+  color: black !important;
+}
+
+.nav-link, .nav-dropdown-item {
+  color: white !important; /* Change nav link color to white */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow-y: hidden;
+}
+
+.sidebar {
+  background-color: #6c757d; /* Add background color to sidebar */
+  padding: 1rem;
+  height: 100%;
+  overflow-y: auto;
+  font-size: 1.25rem; /* Increase sidebar font size */
+}
+
+.sidebar .nav-link {
+  color: white !important; /* Change sidebar link color to white */
+}
+
+.content {
+  padding: 2rem;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.graph-box {
+  background-color: #fff;
+  padding: 2rem; /* Increase padding for a larger appearance */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem; /* Increase margin for better spacing */
+  min-height: 300px; /* Set a minimum height for the graph boxes */
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 40px; /* Increase size of profile image */
+  height: 40px; /* Increase size of profile image */
+}
